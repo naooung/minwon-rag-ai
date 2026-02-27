@@ -1,0 +1,88 @@
+# =========================
+# Python bytecode / caches
+# =========================
+__pycache__/
+*.py[codz]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Env / secrets
+# =========================
+.env
+.env.*
+!.env.example
+.envrc
+
+# =========================
+# Build / packaging outputs
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# =========================
+# Test / coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Type check / lint caches
+# =========================
+.mypy_cache/
+.dmypy.json
+ruff_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+
+# =========================
+# IDE / OS
+# =========================
+.DS_Store
+.idea/
+.vscode/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Modal / HF / ML artifacts
+# =========================
+.hf_cache/
+.cache/
+
+# 모델 가중치/대형 바이너리 실수 방지
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# 데이터/모델 폴더를 레포에 안 넣을 계획이면 유지
+data/
+models/
